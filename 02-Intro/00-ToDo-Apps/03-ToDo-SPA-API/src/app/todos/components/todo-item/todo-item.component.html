@@ -1,0 +1,10 @@
+<li>
+  {{todo.title}}
+  <button *ngIf="todo.id" class="remove-button" (click)="removeToDo()">
+    x
+  </button>
+</li>
+
+
+<!-- DEMO:-->
+<!-- delay the response on the server ... the x button is not displayed-->

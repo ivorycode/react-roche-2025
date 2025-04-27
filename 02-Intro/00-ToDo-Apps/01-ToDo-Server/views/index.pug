@@ -1,0 +1,17 @@
+extends layout
+
+include mixins/_todoList
+
+block content
+
+    .link-container
+        a(href='/todo1/done') Go to done items
+
+    div.new-todo
+
+        form(action='/todo1' method='POST')
+            input(type="text" name="title" placeholder='What needs to be done?' autofocus)
+            button.add-button(type='submit') +
+
+    section.main
+        +todoList(todos, '/todo1/completeToDo')

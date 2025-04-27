@@ -1,0 +1,18 @@
+{
+  "name": "todo-apps",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npm --prefix 01-ToDo-Server run start",
+    "build": "concurrently 'npm --prefix 02-ToDo-SPA run build -- --base-href=/todo2/' 'npm --prefix 03-ToDo-SPA-API run build -- --base-href=/todo3/'",
+    "postbuild": "concurrently 'cpr 02-ToDo-SPA/dist/awesome-ng 01-ToDo-Server/public/todo2/ -d' 'cpr 03-ToDo-SPA-API/dist/awesome-ng 01-ToDo-Server/public/todo3/ -d'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "cpr": "^3.0.1",
+    "rimraf": "^2.6.3"
+  }
+}

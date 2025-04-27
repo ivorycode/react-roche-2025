@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/style.css')
+  body
+    p #{flash}
+    section.todoapp
+      h1 Simplistic ToDo
+      h4 A most simplistic ToDo List with Node.js
+
+      block content
+
+    footer.info
+       p JavaScript Example / Initial template from <a href="https://github.com/tastejs/todomvc-app-template">todomvc-app-template

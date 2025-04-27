@@ -1,0 +1,11 @@
+extends layout
+
+include mixins/_todoList
+
+block content
+
+    .link-container
+        a(href='/todo1/') Go to pending items
+
+    section.main
+        +todoList(doneToDos, '/todo1/removeToDo')

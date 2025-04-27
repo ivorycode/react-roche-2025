@@ -1,0 +1,7 @@
+mixin todoList(todos, action)
+    ul.todo-list
+        each todo in todos
+            li #{todo}
+                form(action=action method=action ? 'POST':false)
+                    input(type='hidden' name='title' value=todo)
+                    button.remove-button x

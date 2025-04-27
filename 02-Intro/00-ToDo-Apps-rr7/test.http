@@ -1,0 +1,13 @@
+POST https://spa-demo.fly.dev/api/todos
+content-Type: application/json
+xx-jba-client-id: 123
+
+{
+      "title": "11111",
+      "completed": false,
+      "id": "1234"
+}
+
+###
+GET https://spa-demo.fly.dev/api/todos
+xx-jba-client-id: 123

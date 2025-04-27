@@ -1,0 +1,205 @@
+# flyctl launch added from .idea/.gitignore
+# Default ignored files
+.idea/shelf
+.idea/workspace.xml
+# Editor-based HTTP Client requests
+.idea/httpRequests
+
+# flyctl launch added from 02-ToDo-SPA/.gitignore
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+02-ToDo-SPA/dist
+02-ToDo-SPA/tmp
+02-ToDo-SPA/out-tsc
+02-ToDo-SPA/bazel-out
+
+# Node
+02-ToDo-SPA/node_modules
+02-ToDo-SPA/**/npm-debug.log
+02-ToDo-SPA/**/yarn-error.log
+
+# IDEs and editors
+02-ToDo-SPA/**/.idea
+02-ToDo-SPA/**/.project
+02-ToDo-SPA/**/.classpath
+02-ToDo-SPA/**/.c9
+02-ToDo-SPA/**/*.launch
+02-ToDo-SPA/**/.settings
+02-ToDo-SPA/**/*.sublime-workspace
+
+# Visual Studio Code
+02-ToDo-SPA/**/.vscode/*
+!02-ToDo-SPA/**/.vscode/settings.json
+!02-ToDo-SPA/**/.vscode/tasks.json
+!02-ToDo-SPA/**/.vscode/launch.json
+!02-ToDo-SPA/**/.vscode/extensions.json
+02-ToDo-SPA/**/.history/*
+
+# Miscellaneous
+02-ToDo-SPA/.angular/cache
+02-ToDo-SPA/**/.sass-cache
+02-ToDo-SPA/connect.lock
+02-ToDo-SPA/coverage
+02-ToDo-SPA/libpeerconnection.log
+02-ToDo-SPA/**/testem.log
+02-ToDo-SPA/typings
+
+# System files
+02-ToDo-SPA/**/.DS_Store
+02-ToDo-SPA/**/Thumbs.db
+
+# flyctl launch added from 02-ToDo-SPA-old/.gitignore
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+02-ToDo-SPA-old/dist
+02-ToDo-SPA-old/dist-server
+02-ToDo-SPA-old/tmp
+02-ToDo-SPA-old/out-tsc
+
+# dependencies
+02-ToDo-SPA-old/node_modules
+
+# IDEs and editors
+02-ToDo-SPA-old/.idea
+02-ToDo-SPA-old/**/.project
+02-ToDo-SPA-old/**/.classpath
+02-ToDo-SPA-old/**/.c9
+02-ToDo-SPA-old/**/*.launch
+02-ToDo-SPA-old/**/.settings
+02-ToDo-SPA-old/**/*.sublime-workspace
+
+# IDE - VSCode
+02-ToDo-SPA-old/**/.vscode/*
+!02-ToDo-SPA-old/**/.vscode/settings.json
+!02-ToDo-SPA-old/**/.vscode/tasks.json
+!02-ToDo-SPA-old/**/.vscode/launch.json
+!02-ToDo-SPA-old/**/.vscode/extensions.json
+
+# misc
+02-ToDo-SPA-old/.sass-cache
+02-ToDo-SPA-old/connect.lock
+02-ToDo-SPA-old/coverage
+02-ToDo-SPA-old/libpeerconnection.log
+02-ToDo-SPA-old/**/npm-debug.log
+02-ToDo-SPA-old/**/testem.log
+02-ToDo-SPA-old/typings
+
+# e2e
+02-ToDo-SPA-old/e2e/*.js
+02-ToDo-SPA-old/e2e/*.map
+
+# System Files
+02-ToDo-SPA-old/**/.DS_Store
+02-ToDo-SPA-old/**/Thumbs.db
+
+# flyctl launch added from 02-ToDo-SPA-old/.idea/.gitignore
+# Default ignored files
+02-ToDo-SPA-old/.idea/shelf
+02-ToDo-SPA-old/.idea/workspace.xml
+# Editor-based HTTP Client requests
+02-ToDo-SPA-old/.idea/httpRequests
+
+# flyctl launch added from 03-ToDo-SPA-API/.gitignore
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+03-ToDo-SPA-API/dist
+03-ToDo-SPA-API/tmp
+03-ToDo-SPA-API/out-tsc
+03-ToDo-SPA-API/bazel-out
+
+# Node
+03-ToDo-SPA-API/node_modules
+03-ToDo-SPA-API/**/npm-debug.log
+03-ToDo-SPA-API/**/yarn-error.log
+
+# IDEs and editors
+03-ToDo-SPA-API/**/.idea
+03-ToDo-SPA-API/**/.project
+03-ToDo-SPA-API/**/.classpath
+03-ToDo-SPA-API/**/.c9
+03-ToDo-SPA-API/**/*.launch
+03-ToDo-SPA-API/**/.settings
+03-ToDo-SPA-API/**/*.sublime-workspace
+
+# Visual Studio Code
+03-ToDo-SPA-API/**/.vscode/*
+!03-ToDo-SPA-API/**/.vscode/settings.json
+!03-ToDo-SPA-API/**/.vscode/tasks.json
+!03-ToDo-SPA-API/**/.vscode/launch.json
+!03-ToDo-SPA-API/**/.vscode/extensions.json
+03-ToDo-SPA-API/**/.history/*
+
+# Miscellaneous
+03-ToDo-SPA-API/.angular/cache
+03-ToDo-SPA-API/**/.sass-cache
+03-ToDo-SPA-API/connect.lock
+03-ToDo-SPA-API/coverage
+03-ToDo-SPA-API/libpeerconnection.log
+03-ToDo-SPA-API/**/testem.log
+03-ToDo-SPA-API/typings
+
+# System files
+03-ToDo-SPA-API/**/.DS_Store
+03-ToDo-SPA-API/**/Thumbs.db
+
+# flyctl launch added from 03-ToDo-SPA-API/.idea/.gitignore
+# Default ignored files
+03-ToDo-SPA-API/.idea/shelf
+03-ToDo-SPA-API/.idea/workspace.xml
+# Editor-based HTTP Client requests
+03-ToDo-SPA-API/.idea/httpRequests
+
+# flyctl launch added from 03-ToDo-SPA-API-old/.gitignore
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+03-ToDo-SPA-API-old/dist
+03-ToDo-SPA-API-old/dist-server
+03-ToDo-SPA-API-old/tmp
+03-ToDo-SPA-API-old/out-tsc
+
+# dependencies
+03-ToDo-SPA-API-old/node_modules
+
+# IDEs and editors
+03-ToDo-SPA-API-old/.idea
+03-ToDo-SPA-API-old/**/.project
+03-ToDo-SPA-API-old/**/.classpath
+03-ToDo-SPA-API-old/**/.c9
+03-ToDo-SPA-API-old/**/*.launch
+03-ToDo-SPA-API-old/**/.settings
+03-ToDo-SPA-API-old/**/*.sublime-workspace
+
+# IDE - VSCode
+03-ToDo-SPA-API-old/**/.vscode/*
+!03-ToDo-SPA-API-old/**/.vscode/settings.json
+!03-ToDo-SPA-API-old/**/.vscode/tasks.json
+!03-ToDo-SPA-API-old/**/.vscode/launch.json
+!03-ToDo-SPA-API-old/**/.vscode/extensions.json
+
+# misc
+03-ToDo-SPA-API-old/.sass-cache
+03-ToDo-SPA-API-old/connect.lock
+03-ToDo-SPA-API-old/coverage
+03-ToDo-SPA-API-old/libpeerconnection.log
+03-ToDo-SPA-API-old/**/npm-debug.log
+03-ToDo-SPA-API-old/**/testem.log
+03-ToDo-SPA-API-old/typings
+
+# e2e
+03-ToDo-SPA-API-old/e2e/*.js
+03-ToDo-SPA-API-old/e2e/*.map
+
+# System Files
+03-ToDo-SPA-API-old/**/.DS_Store
+03-ToDo-SPA-API-old/**/Thumbs.db
+
+# flyctl launch added from 03-ToDo-SPA-API-old/.idea/.gitignore
+# Default ignored files
+03-ToDo-SPA-API-old/.idea/shelf
+03-ToDo-SPA-API-old/.idea/workspace.xml
+# Editor-based HTTP Client requests
+03-ToDo-SPA-API-old/.idea/httpRequests
