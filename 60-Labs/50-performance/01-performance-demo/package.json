@@ -10,9 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "babel-plugin-react-compiler": "^0.0.0-experimental-938cd9a-20240601",
-    "react": "rc",
-    "react-dom": "rc"
+    "babel-plugin-react-compiler": "^19.1.0-rc.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
     "@types/react": "npm:types-react@rc",
